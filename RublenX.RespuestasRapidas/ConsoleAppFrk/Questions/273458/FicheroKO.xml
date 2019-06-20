@@ -1,0 +1,16 @@
+﻿<DirectoRequest
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fecha>2019-03-22T14:30:00Z</fecha>
+  <idProducto>77520043</idProducto>
+  <listaParametros>
+    <parametro>
+      <ordinal>2</ordinal>
+      <valor>950228954</valor>
+    </parametro>
+    <parametro>
+      <ordinal>3</ordinal>
+      <valor>5</valor>
+    </parametro>
+  </listaParametros>
+</DirectoRequest>

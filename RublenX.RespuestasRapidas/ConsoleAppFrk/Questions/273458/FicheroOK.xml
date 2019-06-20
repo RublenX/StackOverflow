@@ -1,0 +1,13 @@
+﻿<LoteRequest
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fecha>2019-05-29T09:00:02.228343Z</fecha>
+  <listaTransacciones>
+    <transaccion>
+      <idProducto>77520052</idProducto>
+      <idTransaccion>1556222478097</idTransaccion>
+      <moneda>PEN</moneda>
+      <importe>5.5</importe>
+    </transaccion>
+  </listaTransacciones>
+</LoteRequest>
