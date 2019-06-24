@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAppFrk.Q274009;
 
 namespace WpfAppFrk
 {
@@ -23,6 +24,15 @@ namespace WpfAppFrk
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.lblEjemplo.Content = "Iniciando la aplicación...";
+
+            await ProcesoPesado.ArranqueAplicacionAsync();
+
+            this.lblEjemplo.Content = "Carga finalizada";
         }
     }
 }
