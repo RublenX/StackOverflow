@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questions\273458\LecturaXml.cs" />
+    <Compile Include="Questions\Q274465\ExpRegTelefono.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
